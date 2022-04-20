@@ -24,7 +24,7 @@ public class Post extends PanacheMongoEntity {
     }
 
     public String getTitle() {
-        // return new StringBuilder(title).reverse().toString(); // Should be: 
+        // return new StringBuilder(title).reverse().toString();
         return title;
     }
 
